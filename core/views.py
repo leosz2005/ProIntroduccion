@@ -6,4 +6,4 @@ class HomeView(View):
         context = {
             
         }
-        return render(request, '', context)
+        return render(request, 'Index.html', context)
