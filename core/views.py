@@ -3,4 +3,7 @@ from django.shortcuts import render
 
 class HomeView(View):
     def get(self, request, *args, **kwargs):
-        return render
+        context = {
+            
+        }
+        return render(request, '', context)
